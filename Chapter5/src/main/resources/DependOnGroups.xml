@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name="DependTest">
+    <test name="testCase1">
+        <classes>
+            <class name="com.kingxyt.testng.dependsOnGroups.TestApp"/>
+            <class name="com.kingxyt.testng.dependsOnGroups.TestDatebase"/>
+            <class name="com.kingxyt.testng.dependsOnGroups.TestServer"/>
+        </classes>
+    </test>
+</suite>
