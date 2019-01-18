@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name="suitename">
+    <test name="runAll">
+        <classes>
+            <class name="com.kingxyt.testng.groups.groupsOnClass1"/>
+            <class name="com.kingxyt.testng.groups.groupsOnClass2"/>
+            <class name="com.kingxyt.testng.groups.groupsOnClass3"/>
+        </classes>
+    </test>
+    <test name="onlyRunStu">
+        <classes>
+        <groups>
+            <run>
+                <include name="stu"/>
+            </run>
+        </groups>
+        <class name="com.kingxyt.testng.groups.groupsOnClass1"/>
+        <class name="com.kingxyt.testng.groups.groupsOnClass2"/>
+        <class name="com.kingxyt.testng.groups.groupsOnClass3"/>
+        </classes>
+    </test>
+</suite>
